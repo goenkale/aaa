@@ -1,186 +1,208 @@
 {
-  "designerVersion" : "1.9.49",
+  "designerVersion" : "1.10.18",
+  "previousDesignerVersion" : "1.9.49",
   "id" : "contractDocuments",
   "name" : "contractDocuments",
-  "lastUpdate" : 1563529528220,
-  "rows" : [ [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "text" : {
-        "type" : "interpolation",
-        "value" : "Contract"
-      },
-      "level" : {
-        "type" : "constant",
-        "value" : "Level 4"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
+  "lastUpdate" : 1581696129204,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Contract"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 4"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "f97f918c-f4e3-4c28-94a8-48ece22be8ac",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
       }
-    },
-    "reference" : "f97f918c-f4e3-4c28-94a8-48ece22be8ac",
-    "hasValidationError" : false,
-    "id" : "pbTitle"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "Process document"
-      },
-      "url" : {
-        "type" : "constant",
-        "value" : "http://www.pdf995.com/samples/pdf.pdf"
-      },
-      "document" : {
-        "type" : "variable",
-        "value" : "finalContractPDF"
-      },
-      "showPreview" : {
-        "type" : "constant",
-        "value" : true
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "Process document"
+          },
+          "url" : {
+            "type" : "constant",
+            "value" : "http://www.pdf995.com/samples/pdf.pdf"
+          },
+          "document" : {
+            "type" : "variable",
+            "value" : "finalContractPDF"
+          },
+          "showPreview" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "de352e09-509d-4890-8c39-d4e7d71f4bbc",
+        "hasValidationError" : false,
+        "id" : "pbFileViewer"
       }
-    },
-    "reference" : "de352e09-509d-4890-8c39-d4e7d71f4bbc",
-    "hasValidationError" : false,
-    "id" : "pbFileViewer"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "text" : {
-        "type" : "interpolation",
-        "value" : "Additional documents"
-      },
-      "level" : {
-        "type" : "constant",
-        "value" : "Level 4"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Additional documents"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 4"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "a8e07ebc-2d61-42ed-92be-c0c24121dca1",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
       }
-    },
-    "reference" : "a8e07ebc-2d61-42ed-92be-c0c24121dca1",
-    "hasValidationError" : false,
-    "id" : "pbTitle"
-  } ], [ {
-    "type" : "container",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 4,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "repeatedCollection" : {
-        "type" : "variable",
-        "value" : "documentList"
+    ],
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 4,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : "documentList"
+          }
+        },
+        "reference" : "28cab5bb-2603-4efd-9ee4-278842d4e8c6",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "Process document"
+                },
+                "url" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "document" : {
+                  "type" : "variable",
+                  "value" : "$item"
+                },
+                "showPreview" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "29b1b565-80cb-4463-b85b-b92f1c736e83",
+              "hasValidationError" : false,
+              "id" : "pbFileViewer"
+            }
+          ]
+        ]
       }
-    },
-    "reference" : "28cab5bb-2603-4efd-9ee4-278842d4e8c6",
-    "hasValidationError" : false,
-    "id" : "pbContainer",
-    "rows" : [ [ {
-      "type" : "component",
-      "dimension" : {
-        "xs" : 12,
-        "sm" : 12,
-        "md" : 12,
-        "lg" : 12
-      },
-      "propertyValues" : {
-        "cssClasses" : {
-          "type" : "constant",
-          "value" : ""
-        },
-        "hidden" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "type" : {
-          "type" : "constant",
-          "value" : "Process document"
-        },
-        "url" : {
-          "type" : "constant",
-          "value" : ""
-        },
-        "document" : {
-          "type" : "variable",
-          "value" : "$item"
-        },
-        "showPreview" : {
-          "type" : "constant",
-          "value" : true
-        }
-      },
-      "reference" : "29b1b565-80cb-4463-b85b-b92f1c736e83",
-      "hasValidationError" : false,
-      "id" : "pbFileViewer"
-    } ] ]
-  } ] ],
+    ]
+  ],
   "assets" : [ ],
   "inactiveAssets" : [ ],
-  "data" : {
+  "variables" : {
     "finalContractPDF" : {
       "type" : "constant",
-      "value" : "",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     },
     "documentList" : {
       "type" : "constant",
-      "value" : "",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     }
   },
